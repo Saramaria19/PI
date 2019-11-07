@@ -20,7 +20,7 @@ public class DataConfiguration {
 		dataSource.setUsername("root");
 		dataSource.setPassword("");
 		return dataSource;
-	}
+	};;
 	
 	@Bean
 	public JpaVendorAdapter jpaVendroAdapter() {
